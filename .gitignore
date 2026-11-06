@@ -1,0 +1,6 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+# extracted raw data (re-create from data/Datos.7z)
+data/Datos/
