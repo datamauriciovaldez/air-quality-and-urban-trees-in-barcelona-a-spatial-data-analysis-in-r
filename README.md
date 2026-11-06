@@ -220,6 +220,7 @@ install.packages(c("tidyverse", "sf", "osmdata", "leaflet", "ggmap"))
 │   ├── barcelona_air_quality_trees.R   # final analysis script (authors' original)
 │   ├── draft_FP.R                      # earlier draft, defines DataTGA / DataTSTR
 │   └── make_figures.R                  # clean script that regenerates every figure below
+├── LICENSE                             # MIT, code only
 ├── data/
 │   ├── Datos.7z                        # raw open data: air quality, trees, stations (≈ 160 MB unpacked)
 │   └── qualitat_aire_contaminants.csv  # pollutant code → name and unit
@@ -237,6 +238,10 @@ install.packages(c("tidyverse", "sf", "osmdata", "leaflet", "ggmap"))
 - Pebesma, E. (2018). *Simple Features for R: Standardized Support for Spatial Vector Data*. The R Journal. The `sf` package.
 
 The data belong to their publishers and are used here for educational purposes; please check each source's licence and give credit before reusing them.
+
+## 📄 License
+
+The **code** is released under the [MIT License](LICENSE). The **data** in `data/` come from the sources above and keep their own licences; they are not covered by the MIT License.
 
 ---
 
